@@ -1,0 +1,43 @@
+//
+
+header {
+
+    .container {
+        text-align: center;
+
+        .h-top {
+
+            img {
+                max-width: 100%;
+            }
+        }
+
+        .box-link {
+
+            margin-top: 20px;
+
+            ul {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                li {
+
+                    a {
+                        color: $primary_color;
+                        text-transform: capitalize;
+                        margin-right: 20px;
+                        font-size: 24px;
+                        font-weight: 300;
+                        padding: 10px;
+
+                        &:hover {
+                            color: #444444;
+                            background-color: #B3E5FC;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

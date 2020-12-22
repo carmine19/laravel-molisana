@@ -1,0 +1,50 @@
+//
+
+footer {
+    padding-top: 80px;
+
+    .bg {
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .container {
+
+        .box-logo {
+            margin-bottom: 20px;
+        }
+
+        .box-info {
+
+            p {
+                margin: 0;
+            }
+        }
+
+        .box-text {
+
+            .box-link {
+
+               ul {
+                   padding: 0;
+
+                   li {
+
+                       a {
+                           color: $footer_link_color;
+                       }
+                   }
+               }
+            }
+
+            .box-title {
+
+                h4 {
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+//
+
+#prodotti {
+
+    .container {
+
+        .col-lg-4 {
+
+            .card {
+                position: relative;
+                margin-bottom: 20px;
+
+                .box-img {
+
+                    img {
+                        max-width: 100%;
+                    }
+                }
+
+                .box-overlay {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    height: 100%;
+                    width: 100%;
+                    display: none;
+                    justify-content: center;
+                    align-items: center;
+                    background: rgba(255,255,255, 0.5);
+
+
+                    a {
+                        color: $primary_color;
+                        font-size: 24px;
+                    }
+
+                }
+
+                &:hover .box-overlay {
+                    display: flex;
+                    }
+            }
+        }
+    }
+}

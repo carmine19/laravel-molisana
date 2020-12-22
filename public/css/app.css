@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Teko", sans-serif;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.active {
+  color: #444444 !important;
+  background-color: #B3E5FC !important;
+}
+
+header .container {
+  text-align: center;
+}
+
+header .container .h-top img {
+  max-width: 100%;
+}
+
+header .container .box-link {
+  margin-top: 20px;
+}
+
+header .container .box-link ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .container .box-link ul li a {
+  color: #444444;
+  text-transform: capitalize;
+  margin-right: 20px;
+  font-size: 24px;
+  font-weight: 300;
+  padding: 10px;
+}
+
+header .container .box-link ul li a:hover {
+  color: #444444;
+  background-color: #B3E5FC;
+}
+
+#prodotti .container .col-lg-4 .card {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+#prodotti .container .col-lg-4 .card .box-img img {
+  max-width: 100%;
+}
+
+#prodotti .container .col-lg-4 .card .box-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+#prodotti .container .col-lg-4 .card .box-overlay a {
+  color: #444444;
+  font-size: 24px;
+}
+
+#prodotti .container .col-lg-4 .card:hover .box-overlay {
+  display: flex;
+}
+
+footer {
+  padding-top: 80px;
+}
+
+footer .bg img {
+  width: 100%;
+}
+
+footer .container .box-logo {
+  margin-bottom: 20px;
+}
+
+footer .container .box-info p {
+  margin: 0;
+}
+
+footer .container .box-text .box-link ul {
+  padding: 0;
+}
+
+footer .container .box-text .box-link ul li a {
+  color: #808080;
+}
+
+footer .container .box-text .box-title h4 {
+  text-transform: uppercase;
+}
+
