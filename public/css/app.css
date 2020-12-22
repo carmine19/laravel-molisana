@@ -89,6 +89,10 @@ header .container .box-link ul li a:hover {
   display: flex;
 }
 
+#prodotto img {
+  max-width: 100%;
+}
+
 footer {
   padding-top: 80px;
 }
